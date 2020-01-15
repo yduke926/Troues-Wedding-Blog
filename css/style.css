@@ -194,7 +194,7 @@ img {
     position: absolute;
     width: 17rem;
     height: 25rem;
-    left: 8rem;
+    left: 25%;
     top: -4rem;
     background-color: var(--tan);
     z-index: 1;
