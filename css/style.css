@@ -267,18 +267,19 @@ img {
     text-align: center;
     background-color: var(--tan);
     color: #fff;
+    padding: 4rem 8rem;
 }
 
 .faves-list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
 .faves-list img {
-    width: 25rem;
+    width: 30rem;
     height: 40rem;
     object-fit: cover;
     padding-bottom: 1.5rem;
@@ -286,7 +287,6 @@ img {
 
 .faves-list li {
     padding: 2.5rem 0;
-    margin-right: 1.5rem;
 
 }
 
@@ -298,4 +298,34 @@ img {
 
 .fav-link:hover {
     color: var(--black);
+}
+
+/* BLOG POSTS */
+
+.blog-posts {
+    padding: 4rem 6rem;
+}
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    padding-bottom: 4rem;
+    text-align: center;
+
+}
+
+.blog img {
+    width: 30rem;
+    height: 55rem;
+    object-fit: cover;
+    padding-bottom: 1rem;
 }
