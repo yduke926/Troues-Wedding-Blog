@@ -389,7 +389,7 @@ img {
 
 .instagram {
     margin: 0;
-    padding: 2rem 0;
+    padding: 0;
 }
 
 .ig-posts {
@@ -405,4 +405,18 @@ img {
     object-fit: cover;
     margin-right: 1rem;
     padding-bottom: .8rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8rem 0 5rem 0;
+}
+
+.f-nav-links-left li,
+.f-nav-links-right li {
+    padding: .5rem 0;
 }
