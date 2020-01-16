@@ -329,3 +329,58 @@ img {
     object-fit: cover;
     padding-bottom: 1rem;
 }
+
+/* EMAIL SECTION */
+
+.email-form-section {
+    padding: 2rem 0;
+}
+
+.email-background {
+    position: relative;
+    display: flex;
+    height: 60vh;
+}
+
+.lcoral {
+    flex: 0 0 40%;
+    background-color: var(--lcoral);
+    height: 100%;
+
+}
+
+.vanilla {
+    flex: 0 0 60%;
+    background-color: var(--griege);
+    height: 100%;
+}
+
+.email-form {
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    display: flex;
+    height: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-form input {
+    border: 1px solid var(--black);
+    margin-right: .3rem;
+    padding: 1rem 4rem;
+}
+
+.email-form h2 {
+    padding-bottom: 2rem;
+}
+
+.email-form a {
+    padding: 1.26rem 1rem;
+    align-self: stretch;
+}
