@@ -16,7 +16,7 @@ coral - #e85a4f
     --griege: #eae7dc;
     --tan: #d8c3a5;
     --lcoral: #e98074;
-    --coral: #e85a4f
+    --coral: #e85a4f;
 }
 
 /************************** GLOBAL *************************/
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: var(--black);
 }
 
@@ -70,8 +70,8 @@ a:hover {
 h1,
 h2,
 h3 {
-    font-family: 'DM Serif Display', serif;
-    letter-spacing: .6rem;
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 0.6rem;
 }
 
 h3 {
@@ -98,7 +98,7 @@ p {
     display: inline-block;
     background-color: var(--lcoral);
     padding: 1rem 3rem;
-    font-size: .7em;
+    font-size: 0.7em;
     letter-spacing: 6px;
     font-weight: 400;
     color: #fff !important;
@@ -106,17 +106,15 @@ p {
     transition: background-color 0.5s;
 }
 
-
-
 .btn:hover {
     background-color: var(--gray);
 }
-
 
 /* NAVIGATION */
 .main-nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 5rem;
 }
 
@@ -126,7 +124,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 
 .nav-item {
     padding: 0 3rem;
@@ -173,9 +170,7 @@ img {
 .blog-post-info h1,
 .blog-post-info p {
     padding: 2rem 5rem;
-
 }
-
 
 .head-img {
     width: 60%;
@@ -189,7 +184,6 @@ img {
     padding-top: 4rem;
 }
 
-
 .profile-av {
     position: relative;
     display: flex;
@@ -201,7 +195,6 @@ img {
     width: 50%;
     position: relative;
     z-index: 10;
-
 }
 
 .vanilla-bg {
@@ -214,7 +207,6 @@ img {
     z-index: 1;
     flex-shrink: 0;
 }
-
 
 .link-list>li {
     padding: 2.3rem 0;
@@ -247,7 +239,7 @@ img {
     height: 15rem;
     width: 15rem;
     object-fit: cover;
-    padding-bottom: .7rem;
+    padding-bottom: 0.7rem;
 }
 
 .image-column {
@@ -259,7 +251,6 @@ img {
 .image-column:first-of-type {
     padding-right: 1.2rem;
 }
-
 
 /* CURRENT FAVES SECTION */
 
@@ -275,7 +266,6 @@ img {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .faves-list img {
@@ -287,13 +277,11 @@ img {
 
 .faves-list li {
     padding: 2.5rem 0;
-
 }
 
 .fav-link {
     color: #fff;
-    transition: all .2s;
-
+    transition: all 0.2s;
 }
 
 .fav-link:hover {
@@ -313,14 +301,12 @@ img {
     align-items: center;
 }
 
-
 .blog {
     display: flex;
     flex-direction: column;
     flex: 0 0 25%;
     padding-bottom: 4rem;
     text-align: center;
-
 }
 
 .blog img {
@@ -346,7 +332,6 @@ img {
     flex: 0 0 40%;
     background-color: var(--lcoral);
     height: 100%;
-
 }
 
 .vanilla {
@@ -372,7 +357,7 @@ img {
 
 .email-form input {
     border: 1px solid var(--black);
-    margin-right: .3rem;
+    margin-right: 0.3rem;
     padding: 1rem 4rem;
 }
 
@@ -382,7 +367,7 @@ img {
 
 .email-form a {
     padding: 1.26rem 1rem;
-    align-self: stretch;
+    align-self: center;
 }
 
 /* IG POSTS SECTION */
@@ -404,7 +389,7 @@ img {
     width: 15rem;
     object-fit: cover;
     margin-right: 1rem;
-    padding-bottom: .8rem;
+    padding-bottom: 0.8rem;
 }
 
 /* FOOTER */
@@ -418,5 +403,5 @@ footer {
 
 .f-nav-links-left li,
 .f-nav-links-right li {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
 }

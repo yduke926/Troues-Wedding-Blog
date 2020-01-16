@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1139px) {
+    .blog-post {
+        margin-bottom: 10rem;
+    }
+
+    .blog-post img {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 941px) {
+
+
+    .logo {
+        order: -1;
+    }
+
+    .nav-item {
+        padding: 0 1.5rem;
+    }
+
+    .faves-list ul {
+        padding: 0 1rem;
+    }
+
+    .email-form {
+        width: 90%;
+        left: 5%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 760px) {
+
+    .faves-list,
+    .blogs {
+        justify-content: center;
+    }
+
+    .email-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form input {
+        margin-bottom: 2rem;
+    }
+}
