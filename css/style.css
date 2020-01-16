@@ -384,3 +384,25 @@ img {
     padding: 1.26rem 1rem;
     align-self: stretch;
 }
+
+/* IG POSTS SECTION */
+
+.instagram {
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.ig-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ig-posts img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-right: 1rem;
+    padding-bottom: .8rem;
+}
