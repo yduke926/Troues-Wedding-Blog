@@ -11,397 +11,392 @@ coral - #e85a4f
 
 */
 :root {
-    --black: rgb(17, 17, 17);
-    --gray: #8e8d8a;
-    --griege: #eae7dc;
-    --tan: #d8c3a5;
-    --lcoral: #e98074;
-    --coral: #e85a4f;
+  --black: rgb(17, 17, 17);
+  --gray: #8e8d8a;
+  --griege: #eae7dc;
+  --tan: #d8c3a5;
+  --lcoral: #e98074;
+  --coral: #e85a4f;
 }
 
 /************************** GLOBAL *************************/
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    color: var(--black);
+  font-family: "Montserrat", sans-serif;
+  color: var(--black);
 }
 
 .container {
-    width: 100%;
-    overflow-x: hidden;
-    padding: 5rem 0;
-    margin: auto;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 5rem 0;
+  margin: auto;
 }
 
 section {
-    padding: 4rem 0;
-    margin: 8rem 0;
+  padding: 4rem 0;
+  margin: 8rem 0;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 a {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: var(--black);
-    transition: color.3s;
-    text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: color.3s;
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--lcoral);
+  color: var(--lcoral);
 }
 
 h1,
 h2,
 h3 {
-    font-family: "DM Serif Display", serif;
-    letter-spacing: 0.6rem;
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 0.6rem;
 }
 
 h3 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 h2 {
-    font-size: 3rem;
-    font-weight: lighter;
+  font-size: 3rem;
+  font-weight: lighter;
 }
 
 h1 {
-    font-size: 4rem;
-    font-weight: lighter;
+  font-size: 4rem;
+  font-weight: lighter;
 }
 
 p {
-    font-size: 1.1rem;
-    letter-spacing: 2px;
-    line-height: 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
 }
 
 .btn {
-    display: inline-block;
-    background-color: var(--lcoral);
-    padding: 1rem 3rem;
-    font-size: 0.7em;
-    letter-spacing: 6px;
-    font-weight: 400;
-    color: #fff !important;
-    text-decoration: none;
-    transition: background-color 0.5s;
+  display: inline-block;
+  background-color: var(--lcoral);
+  padding: 1rem 3rem;
+  font-size: 0.7em;
+  letter-spacing: 6px;
+  font-weight: 400;
+  color: #fff !important;
+  text-decoration: none;
+  transition: background-color 0.5s;
 }
 
 .btn:hover {
-    background-color: var(--gray);
+  background-color: var(--gray);
 }
 
 /* NAVIGATION */
 .main-nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
 }
 
 .nav-links-left,
 .nav-links-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
-    padding: 0 3rem;
+  padding: 0 3rem;
 }
 
 .logo {
-    font-size: 2rem;
-    margin: 0 2%;
+  font-size: 2rem;
+  margin: 0 2%;
 }
 
 .burger {
-    display: none;
-}
-
-/* Test */
-img {
-    width: auto;
-    height: 20rem;
+  display: none;
 }
 
 /* MAIN SECTION */
 
 .main-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 0 5rem;
-    margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+  margin-top: 0;
 }
 
 .main-post {
-    flex: 0 0 70%;
-    display: flex;
-    justify-content: center;
+  flex: 0 0 70%;
+  display: flex;
+  justify-content: center;
 }
 
 .blog-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .blog-post-info h1,
 .blog-post-info p {
-    padding: 2rem 5rem;
+  padding: 2rem 5rem;
 }
 
 .head-img {
-    width: 60%;
-    height: auto;
-    padding-bottom: 1rem;
+  width: 60%;
+  height: auto;
+  padding-bottom: 1rem;
 }
 
 /* SIDE BAR */
 .side-bar {
-    flex: 1;
-    padding-top: 4rem;
+  flex: 1;
+  padding-top: 4rem;
 }
 
 .profile-av {
-    position: relative;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .avatar {
-    height: auto;
-    width: 50%;
-    position: relative;
-    z-index: 10;
+  height: auto;
+  width: 50%;
+  position: relative;
+  z-index: 10;
 }
 
 .vanilla-bg {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: 35%;
-    top: -10%;
-    background-color: var(--tan);
-    z-index: 1;
-    flex-shrink: 0;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 35%;
+  top: -10%;
+  background-color: var(--tan);
+  z-index: 1;
+  flex-shrink: 0;
 }
 
-.link-list>li {
-    padding: 2.3rem 0;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    text-align: center;
+.link-list > li {
+  padding: 2.3rem 0;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .side-bar-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .side-bar-links h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 3rem 0 1.5rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0 1.5rem 0;
 }
 
 .ig-imgs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .ig-imgs img {
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    padding-bottom: 0.7rem;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  padding-bottom: 0.7rem;
 }
 
 .image-column {
-    flex: 50%;
-    display: flex;
-    flex-direction: column;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .image-column:first-of-type {
-    padding-right: 1.2rem;
+  padding-right: 1.2rem;
 }
 
 /* CURRENT FAVES SECTION */
 
 .current-faves {
-    text-align: center;
-    background-color: var(--tan);
-    color: #fff;
-    padding: 4rem 8rem;
+  text-align: center;
+  background-color: var(--tan);
+  color: #fff;
+  padding: 4rem 8rem;
 }
 
 .faves-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .faves-list img {
-    width: 30rem;
-    height: 40rem;
-    object-fit: cover;
-    padding-bottom: 1.5rem;
+  width: 30rem;
+  height: 40rem;
+  object-fit: cover;
+  padding-bottom: 1.5rem;
 }
 
 .faves-list li {
-    padding: 2.5rem 0;
+  padding: 2.5rem 0;
 }
 
 .fav-link {
-    color: #fff;
-    transition: all 0.2s;
+  color: #fff;
+  transition: all 0.2s;
 }
 
 .fav-link:hover {
-    color: var(--black);
+  color: var(--black);
 }
 
 /* BLOG POSTS */
 
 .blog-posts {
-    padding: 4rem 6rem;
+  padding: 4rem 6rem;
 }
 
 .blogs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .blog {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 25%;
-    padding-bottom: 4rem;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  padding-bottom: 4rem;
+  text-align: center;
 }
 
 .blog img {
-    width: 30rem;
-    height: 55rem;
-    object-fit: cover;
-    padding-bottom: 1rem;
+  width: 30rem;
+  height: 55rem;
+  object-fit: cover;
+  padding-bottom: 1rem;
 }
 
 /* EMAIL SECTION */
 
 .email-form-section {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .email-background {
-    position: relative;
-    display: flex;
-    height: 60vh;
+  position: relative;
+  display: flex;
+  height: 60vh;
 }
 
 .lcoral {
-    flex: 0 0 40%;
-    background-color: var(--lcoral);
-    height: 100%;
+  flex: 0 0 40%;
+  background-color: var(--lcoral);
+  height: 100%;
 }
 
 .vanilla {
-    flex: 0 0 60%;
-    background-color: var(--griege);
-    height: 100%;
+  flex: 0 0 60%;
+  background-color: var(--griege);
+  height: 100%;
 }
 
 .email-form {
-    background-color: #fff;
-    position: absolute;
-    z-index: 10;
-    top: 20%;
-    left: 20%;
-    right: 20%;
-    display: flex;
-    height: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: #fff;
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  display: flex;
+  height: 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .email-form input {
-    border: 1px solid var(--black);
-    margin-right: 0.3rem;
-    padding: 1rem 4rem;
+  border: 1px solid var(--black);
+  margin-right: 0.3rem;
+  padding: 1rem 4rem;
 }
 
 .email-form h2 {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .email-form a {
-    padding: 1.26rem 1rem;
-    align-self: center;
+  padding: 1.26rem 1rem;
+  align-self: center;
 }
 
 /* IG POSTS SECTION */
 
 .instagram {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .ig-posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .ig-posts img {
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    margin-right: 1rem;
-    padding-bottom: 0.8rem;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  margin-right: 1rem;
+  padding-bottom: 0.8rem;
 }
 
 /* FOOTER */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 8rem 0 5rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8rem 0 5rem 0;
 }
 
 .f-nav-links-left li,
 .f-nav-links-right li {
-    padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
